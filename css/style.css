@@ -1,16 +1,17 @@
 BODY {
     font-family: Trebuchet MS;
     margin:20px;
-    background-color: #600040;
+    background-color:#e3dfc8;
+    color: #00416d;
   }
   
   H1,H4,p {
     text-align: center;
-    color: #FFFFFF;
+    color: #00416d;
     margin :2rem;
   }
   a{
-      color: #600040;
+      color: #00416d;
   }
 
   li{
@@ -18,12 +19,12 @@ BODY {
   }
 
   ul a{
-      color: #AAAAFF;
+      color: #00416d;
   }
 
   ul li::before {
     content: "\2022";
-    color: white;
+    color: #00416d;
     font-weight: bold;
     display: inline-block; 
     width: 1em;
@@ -36,11 +37,11 @@ BODY {
   }
   
   .myTimetable THEAD{
-    color: #FFFFFF;
+    color: #00416d;
   }
   
   .myTimetable TBODY {
-    background-color: #AAAAFF;
+    background-color: #f5f1da;
   }
   
   .myTimetable TD {
@@ -49,12 +50,12 @@ BODY {
     text-align: center;
   }
   .myTimetable TBODY TR TD:first-child {
-    background-color: #FF0066;
+    background-color: #f8bd7f;
     font-weight: bold;
   }
   
   .break, .lunch {
-    background-color: #FF0066 !important;
+    background-color: #f8bd7f !important;
     font-style: italic;
   }
   
